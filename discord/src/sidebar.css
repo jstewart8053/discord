@@ -36,3 +36,45 @@
   display: flex;
   align-items: center;
 }
+
+.sidebar_voice,
+.sidebar_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebar_voiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar_voiceIcon,
+.sidebar_voiceInfo > h3 {
+  color: #4fb185;
+}
+
+p {
+  font-size: smaller;
+}
+
+.sidebar_voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.sidebar_profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar_profileInfo > h3 {
+  color: white;
+}
+
+.sidebar_profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
