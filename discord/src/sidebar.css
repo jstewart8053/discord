@@ -37,7 +37,9 @@
   align-items: center;
 }
 
-.sidebar_voice,
+.sidebar_voice {
+  display: flex;
+}
 .sidebar_profile {
   display: flex;
   justify-content: space-between;

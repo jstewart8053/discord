@@ -53,22 +53,23 @@ function Sidebar() {
                     <CallIcon />
 
                 </div>
-                <div className="sidebar_profile">
-                    <Avatar src={SVG} />
-                    <div className="sidebar_profileInfo">
-                        <h3>JenniferStewart</h3>
-                        <p>#jstewartDiscord</p>
-                    </div>
-                    <div className="sidebar_profileIcons">
-                        <MicIcon />
-                        <HeadsetIcon />
-                        <SettingsIcon />
-
-                    </div>
-                </div>
-
-
             </div>
+            <div className="sidebar_profile">
+                <Avatar src={SVG} />
+                <div className="sidebar_profileInfo">
+                    <h3>Jennifer Stewart</h3>
+                    <p>#jstewartDiscord</p>
+                </div>
+                <div className="sidebar_profileIcons">
+                    <MicIcon />
+                    <HeadsetIcon />
+                    <SettingsIcon />
+
+                </div>
+            </div>
+
+
+
         </div>
     )
 }
