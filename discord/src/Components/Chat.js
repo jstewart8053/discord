@@ -11,6 +11,9 @@ import { selectChannelId, selectChannelName } from "./appSlice";
 import { selectUser } from "./userSlice";
 import db from "../firebase";
 import firebase from "firebase";
+import Emoji from './Emoji';
+
+
 
 function Chat() {
     const user = useSelector(selectUser);
